@@ -10,10 +10,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 80px 552px 1fr;
-    grid-gap: 4px;
-    /* height: 900px; */
     height: 100vh;
-    /* rem, em, %,px */
     width: 100%
 }
 
@@ -26,7 +23,7 @@
     overflow: hidden;
 }
 
-.Contact {
+.contacts {
     background-color: #FAF9FF;
 }
 
@@ -53,4 +50,116 @@ li {
 
 li img {
     size: 22px;
+}
+
+
+
+/* Contact */
+
+
+/* Top */
+.contact-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 26px;
+    border-bottom: 1px #ECEEF5 solid;
+}
+
+/* Top-Left */
+.contact-menu-left {
+    display: flex;
+    align-items: center;
+    padding-left: 43px;
+}
+
+.contact-menu-left img {
+    margin-right: 26px;
+    background-color: #FFFFFF;
+    border:10px #FFFFFF solid;
+    border-radius: 10px;
+}
+
+.contact-menu-left h2 {
+    font-size: 20px;
+}
+
+/* Top-right */
+.contact-menu-right {
+    display: flex;
+    align-items: center;
+    padding-right: 43px;
+}
+
+.contact-menu-right img {
+    margin-right: 26px;
+    background-color: #FFFFFF;
+    border:10px #FFFFFF solid;
+    border-radius: 10px;
+    color: #8083A3;
+}
+
+.contact-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-search-text {
+    margin-left: 32px;
+    margin-top: 28px;
+}
+
+.contact-search-text h2 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color:  #8083A3;
+}
+
+.contact-search-text p {
+    font-size: 16px;
+    color: #1A1C1D;
+}
+
+.contact-search img {
+    margin-right: 43px;
+    padding-top: 58px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    margin-left: 33px;
+}
+
+.contact-name {
+    margin-left: 18px;
+}
+
+.contact-name h2 {
+    font-size: 14px;
+    color: #1A1C1D;
+    margin-top: 14px;
+}
+
+.contact-name p {
+    font-size: 14px;
+    color: #8083A3;
+    margin-bottom: 14px;
+}
+
+.contact-icons {
+    margin-right: 31px;
+}
+
+.contact-icons img {
+    background-color: #FFFFFF;
+    border:10px #FFFFFF solid;
+    border-radius: 10px;
 }
